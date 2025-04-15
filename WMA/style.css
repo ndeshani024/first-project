@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("images/BC1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #000000 !important;
+}
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffc107 !important;
+}
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  transition: 0.3s;
+  font-size: 1.1rem;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 700px;
+  max-height: 350px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.overlay {
+  margin-top: -100px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  max-width: 90%;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.hero p {
+  font-size: 1.3rem;
+}
+
+.btn-primary {
+  background-color: #ff5733;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.btn-primary:hover {
+  background-color: #c70039;
+}
+
+/* Carousel */
+.carousel img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Brands Section */
+#brands {
+  padding: 50px 0;
+}
+#brands h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+.card {
+  transition: 0.3s;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card-body {
+  text-align: center;
+  background-color: #ffffff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.card-text {
+  font-size: 1.1rem;
+  color: #666;
+}
+.btn-card {
+  background-color: #28a745;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.btn-card:hover {
+  background-color: #218838;
+}
+/* About Us Section */
+
+.about-section h2 {
+  font-size: 5.8rem;
+  font-weight: 700;
+  text-decoration-color: #0c4783;
+  margin-bottom: 30px;
+  color: #f3eeee;
+  text-align: center;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.about-image {
+  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+  background-color: #0c4783;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 60px;
+}
